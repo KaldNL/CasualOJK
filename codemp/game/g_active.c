@@ -1678,9 +1678,10 @@ void G_SetTauntAnim( gentity_t *ent, int taunt )
 	}
 	if ( taunt != TAUNT_TAUNT )
 	{//normal taunt always allowed
-		if ( level.gametype != GT_DUEL && level.gametype != GT_POWERDUEL )
-		{//no taunts unless in Duel
-			return;
+		//Kaldor - enable emotes
+		if ( level.gametype != GT_DUEL && level.gametype != GT_POWERDUEL && level.gametype != GT_FFA )
+		{//no taunts in team games 
+			//return;
 		}
 	}
 
