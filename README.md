@@ -5,11 +5,8 @@ This is just a minor modification based on the OpenJK codebase. This mod will ha
 
 As it stands, it will be serverside-only. A client might be made.
 
-## Installation ##
 
-First, install Jedi Academy. If you don't already own the game you can buy it from online stores such as [Steam](http://store.steampowered.com/app/6020/), [Amazon](http://www.amazon.com/Star-Wars-Jedi-Knight-Academy-Pc/dp/B0000A2MCN) or [Play](http://www.play.com/Games/PC/4-/127805/Star-Wars-Jedi-Knight-Jedi-Academy/Product.html?searchstring=jedi+academy&searchsource=0&searchtype=allproducts&urlrefer=search). Then unpack the OpenJK zip file to your Jedi Academy GameData folder.
-
-## Maintainers (in alphabetical order) ##
+## Maintainers ##
 
 * Kaldor
 
