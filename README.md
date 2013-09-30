@@ -1,17 +1,9 @@
-# JACoders "OpenJK" project #
-IRC: irc.arloria.net / #JACoders ([webchat](http://unic0rn.github.io/tiramisu/jacoders/))
+# Casual OpenJK Modification #
+IRC: irc.quakenet.org #Terminative3
 
-Forum: http://jkhub.org/forum/51-discussion/
+This is just a minor modification based on the OpenJK codebase. This mod will have adjustments made to make it more appealing to the casual saber-only community. Duel fixes, flip kick, emotes, etc, will be added. Many people want to have the improvements of OpenJK, but do not want to lose the features of other mods.
 
-The purpose of this project is to maintain and improve the Jedi Academy and Jedi Outcast games, developed by Raven Software. This project does not attempt to rebalance or otherwise modify core gameplay.
-
-Major enhancement changes are very low priority at this time unless patches are made available and which do not alter the core functionality of gameplay or the stock renderer itself.
-
-Please use discrection when making issue requests on github. The [JKHub sub-forum](http://jkhub.org/forum/51-discussion/) is a better place for larger discussions on changes that aren't actually bugs.
-
-## 64-Bit Support (lack there-of)
-
-64-bit is currently limited and still requires a number of changes before being complete. If you would like to submit pull request to correct this in part or in full, please feel free to do so as it would be appreciated.
+As it stands, it will be serverside-only. A client might be made.
 
 ## Installation ##
 
@@ -19,26 +11,7 @@ First, install Jedi Academy. If you don't already own the game you can buy it fr
 
 ## Maintainers (in alphabetical order) ##
 
-* eezstreet
-* Ensiform
-* mrwonko
-* Raz0r
-* redsaurus
-* Xycaleth
-
-## Significant contributors (in alphabetical order) ##
-
-* exidl
-* Scooper
-* Sil
-
-## Dependencies ##
-
-* OpenGL
-* OpenAL (included on Windows)
-* libpng (included on Windows)
-* libjpeg (included on Windows)
-* zlib (included on Windows)
+* Kaldor
 
 ## Dedicated Server ##
 
@@ -46,7 +19,7 @@ In order to run dedicated server, you must use the openjkded binary, running ded
 
 ## Developer Notes ##
 
-OpenJK is licensed under GPLv2 as free software. You are free to use, modify and redistribute OpenJK following the terms in LICENSE.txt.
+CasualOJK is licensed under GPLv2 as free software. You are free to use, modify and redistribute OpenJK following the terms in LICENSE.txt.
 
 Please be aware of the implications of the GPLv2 licence. In short, be prepared to share your code.
 
@@ -59,18 +32,3 @@ Please be aware of the implications of the GPLv2 licence. In short, be prepared 
 * [Fork](https://github.com/JACoders/OpenJK/fork) the project on Github
 * Change the GAMEVERSION define in codemp/game/g_local.h from "OpenJK" to your project name
 * If you make a nice change, please consider backporting to upstream via pull request as described above. This is so everyone benefits without having to reinvent the wheel for every project.
-
-### Reserved renderer names ###
-* rd-vanilla (JA's original renderer)
-* rd-dedicated (Stripped down renderer for use with dedicated server)
-* rd-raspberry (OpenGL ES compliant renderer for use with Raspberry Pi - feel free to maintain!)
-* rd-strawberry (Maintainer: Xycaleth)
-* rd-vader (Maintainer: mrwonko)
-
-### Engine "hax" ###
-* You will no longer be able to use runtime memory patches. Consider forking OpenJK and adding your engine modifications directly.
-
-### Links of Interest ###
-* [Buildbot](http://jk.xd.cm/)
-* [Buildbot builds](http://builds.openjk.org/)
-* [JKHub sub-forum](http://jkhub.org/forum/51-discussion/)
